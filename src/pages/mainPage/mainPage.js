@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from '../../componets/header/header'
+import styles from  './mainPage.module.css'
 
 const MainPage = () => {
     return (
-        <div>
-            <h1>Illumos</h1>
+        <div className={styles.wrapper}>
+            <Header/>
         </div>
     );
 };
