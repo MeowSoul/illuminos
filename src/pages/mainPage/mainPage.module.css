@@ -2,8 +2,7 @@ body {
     background-color: #202020;
 }
 
-.wrapper {
-    margin: 0;
-    padding: 0;
-
+.main {
+    margin: 145px auto 0 auto;
+    width: 90%;
 }
