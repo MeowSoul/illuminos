@@ -1,9 +1,21 @@
-.header{
+.main {
     margin: 0 auto;
     height: 80px;
     width: 1805px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
 }
 
