@@ -5,4 +5,50 @@ body {
 .main {
     margin: 145px auto 0 auto;
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    border-radius: 100%;
+    background-color:rgba(205, 156, 28, 0.50);
+    filter: blur(300px);
+    z-index: -100;
+}
+
+.main__text {
+    height: 48vh;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    width: 545px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-family: 'JetBrains Mono',sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.button_yellow {
+    background-color: #CD9C1C;
+}
+
+.button_black {
+    background-color: black;
 }
