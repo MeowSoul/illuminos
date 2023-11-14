@@ -1,27 +1,30 @@
 import React from 'react';
 import styles from  './mainPage.module.css'
 import Header from "../../componets/header/header";
-import SubscriptionText from "../../componets/UI/mainText/subscriptionText";
+import SubscriptionText from "./UI/mainText/subscriptionText";
+import MainCards from "./UI/mainCards/mainCards";
+import MainGenres from "./UI/mainGenres/mainGenres";
+import MainSorting from "./UI/mainSorting/mainSorting";
 
 const MainPage = () => {
     return (
         <div>
             <Header/>
-            <main className={styles.main}>
+            <div className={styles.main}>
                 <div className={styles.circle}></div>
-                <div>
-                    <div>
-                        <SubscriptionText text = "Подписка для лучших"></SubscriptionText>
-                        <SubscriptionText text = "Смотрите кино, сериалы и спорт"></SubscriptionText>
-                        <SubscriptionText text = "Месяц за - 1 ₽ дальше - 100 ₽/месяц"></SubscriptionText>
-                    </div>
-                    <div>
-                        <button>Купить подписку</button>
-                        <button>Подробнее</button>
+                <div className={styles.main__text}>
+                    <SubscriptionText text = "Подписка для лучших"/>
+                    <SubscriptionText text = "Смотрите кино, сериалы и спорт"/>
+                    <SubscriptionText text = "Месяц за - 1 ₽ дальше - 100 ₽/месяц"/>
+                    <div className={styles.buttons}>
+                        <button className={styles.button_yellow}>Купить подписку</button>
+                        <button className={styles.button_black}>Подробнее</button>
                     </div>
                 </div>
-                <div></div>
-            </main>
+                <MainCards/>
+            </div>
+            <MainGenres/>
+            <MainSorting/>
         </div>
     );
 };
