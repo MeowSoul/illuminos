@@ -5,6 +5,7 @@ import SubscriptionText from "./UI/mainText/subscriptionText";
 import MainCards from "./UI/mainCards/mainCards";
 import MainFilter from "./UI/mainFilter/mainFilter";
 import MainSorting from "./UI/mainSorting/mainSorting";
+import Footer from "../../componets/footer/footer";
 
 const MainPage = () => {
     return (
@@ -25,6 +26,7 @@ const MainPage = () => {
             </div>
             <MainFilter/>
             <MainSorting/>
+            <Footer/>
         </div>
     );
 };
