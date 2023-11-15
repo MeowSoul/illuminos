@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './subscriptionText.module.css'
 
-const SubscriptionText = (props) => {
+const SubscriptionText = ({subText}) => {
     return (
-        <div className={styles.text}>{props.text}</div>
+        <div className={styles.text}>{subText}</div>
     );
 };
 
