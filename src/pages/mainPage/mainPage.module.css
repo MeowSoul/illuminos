@@ -14,9 +14,9 @@ body {
     width: 600px;
     height: 600px;
     position: absolute;
-    border-radius: 100%;
-    background-color:rgba(205, 156, 28, 0.50);
-    filter: blur(300px);
+    border-radius: 100px;
+    background-color:rgba(205, 156, 28, 0.40);
+    filter: blur(200px);
     z-index: -100;
 }
 
