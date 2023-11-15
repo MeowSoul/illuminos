@@ -1,0 +1,45 @@
+.sorting {
+    margin: 90px auto 0 auto;
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sorting__genres {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sorting__genres_item {
+    color: #9A9797;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sorting__genres_item:first-child {
+    color: white;
+}
+
+.sorting__result {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sorting__item {
+    margin-right: 70px;
+    margin-bottom: 80px;
+    width: 283px;
+    height: 475px;
+    border-radius: 20px;
+    background-color: white;
+}
