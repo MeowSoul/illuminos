@@ -1,23 +1,31 @@
-import React from 'react';
-import styles from './mainGenres.module.css'
-const MainGenres = () => {
+import React, {useState} from 'react';
+import styles from './mainFilter.module.css';
+
+
+const MainFilter = () => {
+
+    const [withWhom] = useState(['Одному', 'Вместе с половинкой', 'Всей семьёй']);
+    const [whatSee] = useState(['Ужас', 'Комендия', 'Драмма']);
+
+    const howToWatch = withWhom.map ((element, index) => {
+        return <option key={index}>{element}</option>;
+    });
+    const whatToWatch = whatSee.map ((element, index) => {
+        return <option key={index}>{element}</option>;
+    });
+
     return (
         <div className={styles.genres}>
             <div className={styles.genres__choice}>
                 <div className={styles.genres__title}>Что вам может понравиться</div>
                 <div>
                     <select className={styles.genres__select}>
-                        <option value="Одному">Одному</option>
-                        <option value="Вместе с половинкой">Вместе с половинкой</option>
-                        <option value="Всей семьёй">Всей семьёй</option>
+                        {howToWatch}
                     </select>
                 </div>
                 <div>
                     <select className={styles.genres__select}>
-                        <option value="Ужас">Ужас</option>
-                        <option value="Комендия">Комендия</option>
-                        <option value="Драмма">Драмма</option>
-                        <option value="Романтика">Романтика</option>
+                        {whatToWatch}
                     </select>
                 </div>
             </div>
@@ -31,4 +39,4 @@ const MainGenres = () => {
     );
 };
 
-export default MainGenres;
+export default MainFilter;
