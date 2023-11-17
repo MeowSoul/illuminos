@@ -1,0 +1,12 @@
+.main {
+    height: 85vh;
+    width: 100%;
+    background-image: url("/public/image/banner.jpg");
+    background-size: cover;
+}
+
+.gradient {
+    height: 85vh;
+    width: 100%;
+    background: linear-gradient(90deg, #767676 5%, rgba(255, 255, 255, 0.75) 30%, rgba(255, 255, 255, 0.05) 95%);
+}
