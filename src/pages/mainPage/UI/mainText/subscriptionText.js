@@ -1,10 +1,8 @@
-import React from 'react';
-import styles from './subscriptionText.module.css'
+import React from "react"
+import styles from "./subscriptionText.module.css"
 
-const SubscriptionText = ({subText}) => {
-    return (
-        <div className={styles.text}>{subText}</div>
-    );
-};
+const SubscriptionText = ({ subText }) => {
+    return <div className={styles.text}>{subText}</div>
+}
 
-export default SubscriptionText;
+export default SubscriptionText
