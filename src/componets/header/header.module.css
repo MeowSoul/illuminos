@@ -1,4 +1,4 @@
- .main {
+.main {
     margin: 0 auto;
     height: 80px;
     width: 1805px;
@@ -21,15 +21,14 @@
     align-items: center;
 }
 
- .subscribe {
-     width: 260px;
-     height: 50px;
-     border: 3px solid white;
-     border-radius: 10px;
-     background: linear-gradient(90deg, #CD9C1C 0%, #202020 98.27%);
-     font-size: 20px;
-     font-family: 'JetBrains Mono',sans-serif;
-     font-weight: bold;
-     color:white;
- }
-
+.subscribe {
+    width: 260px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #cd9c1c 0%, #202020 98.27%);
+    font-size: 20px;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: bold;
+    color: white;
+}
