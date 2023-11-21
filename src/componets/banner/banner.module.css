@@ -8,5 +8,25 @@
 .gradient {
     height: 85vh;
     width: 100%;
+    display: flex;
+    align-items: center;
     background: linear-gradient(90deg, #767676 5%, rgba(255, 255, 255, 0.75) 30%, rgba(255, 255, 255, 0.05) 95%);
+}
+
+.information {
+    margin-left: 70px;
+    height: 56vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.general__information {
+    width: 24vw;
+    display: flex;
+    justify-content: space-between;
+    color: #3a3a3a;
 }
