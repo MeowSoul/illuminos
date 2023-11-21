@@ -22,11 +22,8 @@ const MoviePage = () => {
                 <div className={styles.trailer_block}>
                     <iframe
                         className={styles.trailer}
-                        width="1400"
-                        height="315"
                         src="https://www.youtube.com/embed/0fUCuvNlOCg?si=6AKhVEyEmK8Ae9_u"
                         title="YouTube video player"
-                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                     ></iframe>
