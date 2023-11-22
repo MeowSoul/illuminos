@@ -9,7 +9,7 @@ const Header = () => {
                 <img src={"/image/logo.png"} alt="Logo" />
                 <MenuItem menuTextItem="Главная" menuLink="/" />
                 <MenuItem menuTextItem="Фильмы" menuLink="/movie/:id" />
-                <MenuItem menuTextItem="Сериалы" menuLink=" " />
+                <MenuItem menuTextItem="Сериалы" menuLink="/series/:id" />
             </div>
             <div className={styles.buttons}>
                 <button className={styles.subscribe}>Купить подписку</button>

@@ -21,6 +21,18 @@ export const filmData = [
     },
 ]
 
+export const seriesData = [
+    {
+        id: 1,
+        name: "Игра престолов",
+        rating: 9.1,
+        year: 2007,
+        genre: "Фантастика",
+        voice: ["Rus", "Eng"],
+        ageLimit: 18,
+        numberSeasons: "8 сезонов",
+    },
+]
 const MainPage = () => {
     return (
         <div>
