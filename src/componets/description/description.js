@@ -1,9 +1,11 @@
 import React from "react"
+import styles from "./description.module.css"
 
-const Description = () => {
+const Description = ({ descriptionText }) => {
     return (
-        <div>
-
+        <div className={styles.main}>
+            <div>Описание</div>
+            {descriptionText}
         </div>
     )
 }
