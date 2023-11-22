@@ -4,6 +4,8 @@ import Footer from "../../componets/footer/footer"
 import Banner from "../../componets/banner/banner"
 import { filmData } from "../mainPage/mainPage"
 import styles from "./moviePage.module.css"
+import Description from "../../componets/description/description"
+
 const MoviePage = () => {
     return (
         <div>
@@ -28,6 +30,7 @@ const MoviePage = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
+                <Description descriptionText="Человек по прозвищу Дантист — один из самых известных и кровожадных охотников за головами. Однако вечно в одиночку работать не будешь, поэтому Дантист решает найти себе напарника. Но как выбрать человека надежного, а главное, чтобы он не стоил герою целого состояния? Дантист находит выход — он берет в помощники освобожденного раба по имени Джанго. У каждого в этой паре есть свои цели." />
             </main>
             <Footer />
         </div>
