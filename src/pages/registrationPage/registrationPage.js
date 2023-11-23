@@ -2,9 +2,9 @@ import React from "react"
 import Footer from "../../componets/footer/footer"
 import styles from "./registrationPage.module.css"
 import MinHeader from "../../componets/min-header/min-header"
-import Userfront, {SignupForm } from "@userfront/toolkit/react"
+import Userfront, { SignupForm } from "@userfront/toolkit/react"
 
-Userfront.init("demo1234");
+Userfront.init("demo1234")
 
 const RegistrationPage = () => {
     return (
