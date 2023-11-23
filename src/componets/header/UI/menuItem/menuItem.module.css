@@ -3,4 +3,10 @@
     color: white;
     font-family: "JetBrains Mono", sans-serif;
     text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.link:hover {
+    transition-duration: 0.5s;
+    color: rgb(69, 69, 69);
 }
