@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./header.module.css"
 import MenuItem from "./UI/menuItem/menuItem"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
@@ -12,8 +13,12 @@ const Header = () => {
                 <MenuItem menuTextItem="Сериалы" menuLink="/series/:id" />
             </div>
             <div className={styles.buttons}>
-                <button className={styles.subscribe}>Купить подписку</button>
-                <img src={"/image/user-logo.png"} alt="Logo-user" />
+                <Link to="/subscription">
+                    <button className={styles.subscribe}>Купить подписку</button>
+                </Link>
+                <Link to="/registration">
+                    <img className={styles.user} src={"/image/user-logo.png"} alt="Logo-user" />
+                </Link>
             </div>
         </div>
     )
