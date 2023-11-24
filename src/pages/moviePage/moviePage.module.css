@@ -1,0 +1,12 @@
+.trailer_block {
+    margin: 150px auto 0 auto;
+    width: 1400px;
+    height: 788px;
+}
+
+.trailer {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+}

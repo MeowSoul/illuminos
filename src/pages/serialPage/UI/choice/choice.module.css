@@ -1,0 +1,39 @@
+.main {
+    margin: 150px auto 0 auto;
+    width: 1400px;
+}
+
+.choice {
+    max-width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-family: "Ubuntu Medium", sans-serif;
+    color: white;
+}
+
+.items {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #454545;
+    font-size: 24px;
+    font-family: "Ubuntu Medium", sans-serif;
+    color: white;
+}

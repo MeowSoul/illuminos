@@ -1,0 +1,15 @@
+.main {
+    margin-top: 30px;
+    height: 85px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underlining {
+    margin: 15px 30px;
+    width: 180px;
+    height: 1px;
+    background-color: white;
+}

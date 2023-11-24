@@ -1,0 +1,34 @@
+.main {
+    margin: 150px auto 0 auto;
+    width: 1400px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    max-width: 130px;
+    border-bottom: 3px solid #cd9c1c;
+    font-size: 24px;
+    font-family: "Ubuntu Medium", sans-serif;
+    color: white;
+}
+
+.choice {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice_item {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.choice_item:hover {
+    cursor: pointer;
+}

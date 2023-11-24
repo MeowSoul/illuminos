@@ -1,0 +1,45 @@
+.main {
+    margin: 150px auto 0 auto;
+    width: 1400px;
+    border-top: 1px solid #454545;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.title {
+    margin-top: 15px;
+    padding-top: 50px;
+    max-width: 150px;
+    border-bottom: 1px solid #cd9c1c;
+    line-height: normal;
+}
+
+.someLike {
+    margin: 150px auto 0 auto;
+    width: 1400px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.someLike_title {
+    font-size: 32px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.someLike_items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.someLike_img {
+    width: 280px;
+    height: 475px;
+}
