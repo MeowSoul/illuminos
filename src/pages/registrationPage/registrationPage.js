@@ -11,19 +11,18 @@ const RegistrationPage = () => {
         <div>
             <main className={styles.main}>
                 <MinHeader />
-                <SignupForm />
-                {/*<div className={styles.main_form}>*/}
-                {/*    <form action="" className={styles.form}>*/}
-                {/*        <label className={styles.title}>Регистрация</label>*/}
-                {/*        <input className={styles.field} type="text" placeholder={"Имя"} />*/}
-                {/*        <input className={styles.field} type="text" placeholder={"Фамилия"} />*/}
-                {/*        <input className={styles.field} type="text" placeholder={"Логин"} />*/}
-                {/*        <input className={styles.field} type="text" placeholder={"Пароль"} />*/}
-                {/*        <button className={styles.button} type={"submit"}>*/}
-                {/*            Отправить*/}
-                {/*        </button>*/}
-                {/*    </form>*/}
-                {/*</div>*/}
+                <div className={styles.main_form}>
+                    <form action="" className={styles.form}>
+                        <label className={styles.title}>Регистрация</label>
+                        <input className={styles.field} type="text" placeholder={"Имя"} />
+                        <input className={styles.field} type="text" placeholder={"Фамилия"} />
+                        <input className={styles.field} type="text" placeholder={"Логин"} />
+                        <input className={styles.field} type="text" placeholder={"Пароль"} />
+                        <button className={styles.button} type={"submit"}>
+                            Отправить
+                        </button>
+                    </form>
+                </div>
                 <Footer />
             </main>
         </div>
