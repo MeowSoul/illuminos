@@ -1,0 +1,34 @@
+.column {
+    height: 750px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+}
+
+.column_item {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    width: 125px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
